@@ -1,0 +1,32 @@
+.page-link, .page-item{
+    background-color: #F2F2F5;
+    color: #CBCED1;
+    border-radius: 5px;
+}
+
+.filter {
+    font-size: 12px;
+}
+
+.filtro-categoria a, .filtro-categoria p {
+    font-size: 14px;
+}
+
+.text-muted {
+    font-size: 12px;
+}
+
+.ordenacao {
+    width: 200px;
+}
+
+@media (max-width: 768px) {
+    .filter-range {
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 9px;
+        & input {
+            width: 80%;
+        }
+    }
+}

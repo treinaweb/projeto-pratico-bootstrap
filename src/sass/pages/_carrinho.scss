@@ -1,0 +1,25 @@
+.bg-neutro {
+    background-color: #fff;
+}
+
+tr td {
+    vertical-align: middle;
+} 
+
+.table-carrinho {
+    border-radius: 15px;
+}
+
+.table>:not(:first-child) {
+    border-top: none;
+}
+
+.table-carrinho th, .table-carrinho td {
+    padding: 30px 10px;
+}
+
+@media (max-width: 576px) {
+    .table-carrinho th, .table-carrinho td {
+        padding: 30px 5px;
+    }
+}
