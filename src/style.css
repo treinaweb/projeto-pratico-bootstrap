@@ -9065,6 +9065,10 @@ input:focus-visible {
           justify-content: space-evenly;
 }
 
+.detalhe-iphone input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
 .detalhe-iphone {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9419,10 +9423,6 @@ input[type=range]:focus::-ms-fill-upper {
 
 body, .card {
   background-color: #F5F5F7;
-}
-
-input[type=number]::-webkit-inner-spin-button {
-  -webkit-appearance: none;
 }
 
 .header {

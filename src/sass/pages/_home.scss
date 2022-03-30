@@ -2,11 +2,6 @@ body, .card {
     background-color: $neutra01;
 }
 
-// Quero essa aparencia em todos os imputs tipo number
-input[type=number]::-webkit-inner-spin-button { 
-    -webkit-appearance: none;    
-}
-
 .header {
     background-color: #fff;
 }
