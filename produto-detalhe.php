@@ -12,7 +12,7 @@
     </div>
     <section>
         <div class="container">
-            <div class="row gap-5">
+            <div class="row gap-4">
                 <div class="col-12 col-md-5">
                     <div id="carouselExampleIndicators" class="carousel slide carousel-fade carousel-detalhe">
                         <ol class="carousel-indicators">
@@ -63,7 +63,7 @@
                 </div>
 
             </div>
-            <div class="row categoria-descricao gap-md-5">
+            <div class="row categoria-descricao gap-md-4">
                 <div class="col-5">
                     <div class="d-flex justify-content-between">
                         <p>Descrição</p>

@@ -55,7 +55,7 @@
 
     <section class="container categoria">
             <h2 class="text-gradiente">Comprar por categoria</h2>
-            <div class="underscore-title mb-5"></div>
+            <div class="underscore-title"></div>
             <div class="row row-cols-md-3 row-cols-1 gx-0">
                 <?php for ($i = 0; $i < 3; $i++) {
                         require('includes/components/categoria-item.php');
@@ -66,10 +66,10 @@
 
     <section class="container my-5 pb-md-5">
         <h2 class="mt-5 text-gradiente">Promoção</h2>
-        <div class="underscore-title mb-5"></div>
+        <div class="underscore-title"></div>
 
         <div>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4  g-4 mb-5 mt-1">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4  g-4 mt-1">
                 <?php for ($i = 0; $i < 4; $i++) {
                     require('includes/components/produto-item.php');
                 }

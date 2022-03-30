@@ -9142,7 +9142,7 @@ input:focus-visible {
   background-color: #fff;
 }
 
-tr td {
+.table-carrinho tr td {
   vertical-align: middle;
 }
 
@@ -9509,6 +9509,10 @@ input[type=number]::-webkit-inner-spin-button {
 
 .categoria {
   margin-bottom: 70px;
+}
+
+.categoria .row {
+  margin-top: 30px;
 }
 
 @media (max-width: 1200px) {

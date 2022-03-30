@@ -13,7 +13,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-                <div class="d-flex align-items-center gap-3 flex-wrap">
+                <div class="d-flex align-items-xxl-center gap-3 flex-wrap">
                     <div class="ordenacao">
                         <select class="form-select border-0" aria-label="Default select example">
                             <option selected>Ordenar</option>
@@ -24,7 +24,7 @@
                     </div>
                     <p class="text-muted text-nowrap mb-0"> Mostar 1-4 de 30 resultados</p>
                     <nav aria-label="Page navigation">
-                        <ul class="pagination fw-bold ps-0 ps-lg-4 ps-xl-0 mb-0 mt-5 mt-xl-0">
+                        <ul class="pagination fw-bold ps-0 ps-xl-0 mb-0 mt-3 mt-xl-0">
                             <li class="page-item mx-2"><a class="bg-primary text-white border-0 page-link" href="#">1</a></li>
                             <li class="page-item mx-2"><a class="border-0 page-link" href="#">2</a></li>
                             <li class="page-item mx-2 d-none d-sm-inline-block"><a class="border-0 page-link" href="#">3</a></li>
@@ -71,10 +71,10 @@
         </div>
     </section>
 
-    <div class="container mb-5 pb-md-5 mt-3 mt-lg-5">
+    <div class="container mb-5 pb-md-5 mt-3 mt-md-5">
         <div class="row">
             <div class="col-lg-8">
-                <div class="d-flex align-items-center justify-content-around flex-wrap">
+                <div class="d-flex align-items-xxl-center gap-3 flex-wrap">
                     <div class="ordenacao">
                         <select class="form-select border-0" aria-label="Default select example">
                             <option selected>Ordenar</option>
@@ -85,7 +85,7 @@
                     </div>
                     <p class="text-muted text-nowrap mb-0"> Mostar 1-4 de 30 resultados</p>
                     <nav aria-label="Page navigation">
-                        <ul class="pagination fw-bold ps-0 ps-lg-4 ps-xl-0 mb-0 mt-4 mt-xl-0">
+                        <ul class="pagination fw-bold ps-0 ps-xl-0 mb-0 mt-3 mt-xl-0">
                             <li class="page-item mx-2"><a class="bg-primary text-white border-0 page-link" href="#">1</a></li>
                             <li class="page-item mx-2"><a class="border-0 page-link" href="#">2</a></li>
                             <li class="page-item mx-2 d-none d-sm-inline-block"><a class="border-0 page-link" href="#">3</a></li>
@@ -112,3 +112,6 @@
 
 
 <?php require_once('includes/footer.php'); ?>
+
+
+
