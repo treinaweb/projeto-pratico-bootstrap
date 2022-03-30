@@ -45,9 +45,6 @@
                     <a class="nav-link px-0 mx-3" href="carrinho.php">Carrinho</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link px-0 mx-3" href="finalizar-compras.php">Cadastro</a>
-                  </li>
-                  <li class="nav-item">
                     <a class="nav-link px-0 mx-3" href="recebido.php">Recebido</a>
                   </li>
                 </ul>
