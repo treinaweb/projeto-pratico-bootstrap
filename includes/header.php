@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
-    <link rel="stylesheet" href="/teste/src/style.css">
+    <link rel="stylesheet" href="src/style.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     
@@ -33,22 +33,22 @@
               <div class="collapse navbar-collapse justify-content-between fw-bold" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link px-0 me-3 ms-3 ms-md-0" href="/teste/index.php">Home</a>
+                    <a class="nav-link px-0 me-3 ms-3 ms-md-0" href="index.php">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link px-0 mx-3" href="/teste/loja.php">Loja</a>
+                    <a class="nav-link px-0 mx-3" href="loja.php">Loja</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link px-0 mx-3" href="/teste/produto-detalhe.php">Detalhes</a>
+                    <a class="nav-link px-0 mx-3" href="produto-detalhe.php">Detalhes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link px-0 mx-3" href="/teste/carrinho.php">Carrinho</a>
+                    <a class="nav-link px-0 mx-3" href="carrinho.php">Carrinho</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link px-0 mx-3" href="/teste/finalizar-compras.php">Cadastro</a>
+                    <a class="nav-link px-0 mx-3" href="finalizar-compras.php">Cadastro</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link px-0 mx-3" href="/teste/recebido.php">Recebido</a>
+                    <a class="nav-link px-0 mx-3" href="recebido.php">Recebido</a>
                   </li>
                 </ul>
               </div>

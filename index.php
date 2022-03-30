@@ -12,21 +12,21 @@
                     <img src="images/banner.png" class="d-block w-100 img-fluid" alt="...">
                     <div class="carousel-caption k text-start">
                         <h1 class="carousel-text">Tecnologia acessível <br> num só sítio</h5>
-                        <a href="/teste/loja.php"><button class="btn-grey  mt-4">Ver mais</button></a>
+                        <a href="loja.php"><button class="btn-grey  mt-4">Ver mais</button></a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="images/banner.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption text-start">
                         <h1 class="carousel-text">Tecnologia acessível<br> num só sítio</h5>
-                        <a href="/teste/loja.php"><button class="btn-grey  mt-4">Ver mais</button></a>
+                        <a href="loja.php"><button class="btn-grey  mt-4">Ver mais</button></a>
                  </div>
                 </div>
                 <div class="carousel-item">
                     <img src="images/banner.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption text-start">
                         <h1 class="carousel-text">Tecnologia acessível<br> num só sítio</h5>
-                        <a href="/teste/loja.php"><button class="btn-grey  mt-4">Ver mais</button></a>
+                        <a href="loja.php"><button class="btn-grey  mt-4">Ver mais</button></a>
                     </div>
                 </div>
             </div>
