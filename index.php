@@ -8,23 +8,20 @@
                 <button class="indicators" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/banner.png" class="d-block w-100 img-fluid" alt="...">
-                    <div class="carousel-caption k text-start">
+                <div class="carousel-item carousel-image active">
+                    <div class="carousel-caption text-center text-md-start">
                         <h1 class="carousel-text">Tecnologia acessível <br> num só sítio</h5>
                         <a href="loja.php"><button class="btn-grey  mt-4">Ver mais</button></a>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="images/banner.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption text-start">
+                <div class="carousel-item carousel-image">
+                    <div class="carousel-caption text-center text-md-start">
                         <h1 class="carousel-text">Tecnologia acessível<br> num só sítio</h5>
                         <a href="loja.php"><button class="btn-grey  mt-4">Ver mais</button></a>
                  </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="images/banner.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption text-start">
+                <div class="carousel-item carousel-image">
+                    <div class="carousel-caption text-center text-md-start">
                         <h1 class="carousel-text">Tecnologia acessível<br> num só sítio</h5>
                         <a href="loja.php"><button class="btn-grey  mt-4">Ver mais</button></a>
                     </div>
@@ -35,7 +32,7 @@
 
     <section class="container my-5">
         <h2 class="mt-5 text-gradiente">Novidades</h2>
-        <div class="underscore-title mb-5"></div>
+        <div class="underscore-title"></div>
 
         <div>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4  g-4 mb-5 mt-1">
@@ -45,9 +42,7 @@
                 ?>
             </div>
         </div>
-    </section>
-       
-    
+    </section> 
 
     <section class="container-fluid bg-image">
         <div class="section-image text-white p-5">

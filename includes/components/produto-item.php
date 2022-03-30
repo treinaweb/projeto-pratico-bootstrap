@@ -1,4 +1,4 @@
-<div class="col my-md-3 my-4">
+<div class="col my-md-1 my-2">
     <div class="card border-0">
         <span class="badge position-relative"><img src="../../images/sale.png" alt=""></span>
         <img src="images/img01.png" class="card-img-top" alt="..." width="100%">

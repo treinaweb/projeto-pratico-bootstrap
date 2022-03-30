@@ -1,7 +1,7 @@
 <?php require_once('includes/header.php'); ?>
 
 <main>
-    <div class="container mb-5">
+    <div class="container mb-4">
         <nav aria-label="breadcrumb ">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="index.php"><i class="bi bi-house-door text-primary me-2"></i>Home</a></li>
@@ -42,9 +42,9 @@
     </div>
 
     <section>
-        <div class="container mt-5">
+        <div class="container mt-4">
             <div class="row">
-                <div class="order-md-1 col-12 col-md-3 d-flex flex-column filter-range ms-md-4 mb-5 mb-md-3 filtro-categoria order-2 order-md-0">
+                <div class="order-md-1 order-2 order-md-0 offset-md-1 col-12 col-md-3 d-flex flex-column my-3 mb-md-3 filtro-categoria filter-range">
                     <label for="priceFilter" class="form-label fw-bold">Filtrar por preço</label>
                     <input type="range" class="mt-2 " id="priceFilter" min="0" max="10000" step="1">
                     <p class="mb-4 mt-2 text-muted fs-6">Preço: <i class="bi bi-currency-dollar me-2"></i>20 -  <i class="bi bi-currency-dollar me-2"></i>1399</p>
@@ -71,7 +71,7 @@
         </div>
     </section>
 
-    <div class="container mb-5 pb-md-5 mt-3">
+    <div class="container mb-5 pb-md-5 mt-3 mt-lg-5">
         <div class="row">
             <div class="col-lg-8">
                 <div class="d-flex align-items-center justify-content-around flex-wrap">
@@ -85,7 +85,7 @@
                     </div>
                     <p class="text-muted text-nowrap mb-0"> Mostar 1-4 de 30 resultados</p>
                     <nav aria-label="Page navigation">
-                        <ul class="pagination fw-bold ps-0 ps-lg-4 ps-xl-0 mb-0 mt-5 mt-xl-0">
+                        <ul class="pagination fw-bold ps-0 ps-lg-4 ps-xl-0 mb-0 mt-4 mt-xl-0">
                             <li class="page-item mx-2"><a class="bg-primary text-white border-0 page-link" href="#">1</a></li>
                             <li class="page-item mx-2"><a class="border-0 page-link" href="#">2</a></li>
                             <li class="page-item mx-2 d-none d-sm-inline-block"><a class="border-0 page-link" href="#">3</a></li>

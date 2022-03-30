@@ -14,7 +14,11 @@ input:focus-visible {
     outline: none;
 }
 
-.navbar, .navbar-collapse {
+.navbar {
+    padding: 5px 0 1.3rem 0;
+}
+
+.navbar-collapse {
     padding: 1.3rem 0;
 }
 
@@ -31,4 +35,13 @@ input:focus-visible {
     color: $primary;
     border-bottom: 4px solid $primary;
     transition: .2s;
+}
+
+@media (max-width: 992px) {
+    .navbar .nav-item .nav-link:hover {
+        border-bottom:none;
+    }
+    .navbar-nav {
+        gap: 10px;
+    }
 }

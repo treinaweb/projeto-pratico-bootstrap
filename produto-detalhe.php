@@ -12,7 +12,7 @@
     </div>
     <section>
         <div class="container">
-            <div class="row">
+            <div class="row gap-5">
                 <div class="col-12 col-md-5">
                     <div id="carouselExampleIndicators" class="carousel slide carousel-fade carousel-detalhe">
                         <ol class="carousel-indicators">
@@ -50,11 +50,12 @@
                             <option value="2">Dourado</option>
                             <option value="3">Brando</option>
                         </select>
+                        <div class="my-3 row">
+                            <input class="ms-3 col-1 rounded-3 border-0" placeholder="1" type="number">
+                            <a href="carrinho.php" class="col-3"><button class="ms-2 btn-card">Adicionar</button></a>
+                        </div>
                     </form>
-                    <div class="my-3 row">
-                        <input class="ms-3 col-1 rounded-3 border-0" placeholder="1" type="number">
-                        <a href="carrinho.php" class="col-3"><button class="ms-2 btn-card">Adicionar</button></a>
-                    </div>
+                    
                     <div class="categoria-prod">
                         <p class="text-muted">Ref: N/D</p>
                         <p class="text-muted">Categoria: <a href="#" class="text-primary">Apple</a></p>
@@ -62,7 +63,7 @@
                 </div>
 
             </div>
-            <div class="row categoria-descricao">
+            <div class="row categoria-descricao gap-md-5">
                 <div class="col-5">
                     <div class="d-flex justify-content-between">
                         <p>Descrição</p>
@@ -74,7 +75,7 @@
                     <p class="text-muted">Avaliações(0)</p>
                     <hr>
                 </div>
-                <div class="col-md-6 col-7 ms-lg-4">
+                <div class="col-md-6 col-7">
                     <h3 class="mb-4">Descrição</h3>
                     <p>
                         Ecrã diagonal: 15,5 cm (6.1″), 2532×1170 pixels, OLED. Modelo de processador: A14. Armazenamento interno: 64 GB. Câmara traseira: 12MP, dupla. SO instalado: iOS 14. Iva incluído.
@@ -86,7 +87,7 @@
 
     <section class="container">
         <h2 class="mt-5 fs-1">Produtos relacionados</h2>
-        <div class="underscore-title mb-5"></div>
+        <div class="underscore-title mb-2"></div>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4  g-4 mt-1 relacionados-detalhe">
             <?php for ($i = 0; $i < 4; $i++) {
                 require('includes/components/produto-item.php');

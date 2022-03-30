@@ -15,20 +15,20 @@
         <div class="underscore-title mb-5"></div>
 
         <div>
-            <table class="bg-neutro table-carrinho w-100 mb-3">
+            <table class="bg-neutro table-carrinho w-100 mb-4">
                 <thead>
                     <tr class="">
                         <th scope="col"></th>
                         <th scope="col">Produto</th>
                         <th scope="col">Preço</th>
-                        <th scope="col">Quantidade</th>
+                        <th scope="col">Quanti<span  class="d-line d-md-none">-</span><br class="d-line d-md-none">dade</th>
                         <th scope="col">Subtotal</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <th scope="row"><i class="bi bi-x-circle-fill me-4"></i><img src="./images/img01.png" width="40px" alt=""> </th>
-                        <td><a href="#" class="text-primary">Apple Iphone 12 64gb</a></td>
+                    <tr class="text-table">
+                        <th scope="row"><i class="bi bi-x-circle-fill me-1 me-md-4"></i><img src="./images/img01.png" width="40px" alt=""> </th>
+                        <td><a href="#" class="text-primary">Apple Iphone<br class="d-line d-md-none"> 12 64gb</a></td>
                         <td><i class="bi bi-currency-dollar me-2">1.200</i></td>
                         <td>1</td>
                         <td><i class="bi bi-currency-dollar me-2">1.200</i></td>
@@ -36,7 +36,7 @@
                 </tbody>
             </table>
         </div>
-        <div class="row align-items-md-center mb-5">
+        <div class="row align-items-md-center">
             <div class="col-6 col-md-2">
                 <form class="search-area bg-white rounded-3 p-3">
                     <input class="bg-white w-100" placeholder="Código do Cupom" aria-label="search">

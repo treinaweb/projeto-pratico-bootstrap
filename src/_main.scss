@@ -48,6 +48,13 @@ input[type=number]::-webkit-inner-spin-button {
     font-size: 4rem;
 }
 
+.carousel-image {
+    background-image: url('../images/banner.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .bg-image {
     background-image: url(../images/background-cartao.png);
     background-position: center;
@@ -60,6 +67,9 @@ input[type=number]::-webkit-inner-spin-button {
     background-color: rgba(92, 92, 92, 0.534);
     padding: 150px 150px;
     margin-bottom: 50px;
+    & p {
+        width: 40%;
+    }
 }
 
 .underscore-title {
@@ -94,6 +104,14 @@ input[type=number]::-webkit-inner-spin-button {
     }
 }
 
+@media (max-width: 992px) {
+    .section-image {
+        & p {
+            width: 60%;
+        }
+    }
+}
+
 @media (max-width: 768px) {
     .carousel-home .carousel-inner, .carousel-home .carousel-item, .carousel-home .active, .carousel-home img{
         height: 400px;
@@ -105,7 +123,7 @@ input[type=number]::-webkit-inner-spin-button {
     }
 }
 
-@media (max-width: 567px) {
+@media (max-width: 576px) {
     .carousel-home .carousel-inner, .carousel-home .carousel-item, .carousel-home .active, .carousel-home img{
         height: 290px;
     }
@@ -116,7 +134,13 @@ input[type=number]::-webkit-inner-spin-button {
     }
 
     .carousel-home .carousel-caption {
-        padding-bottom: 30px;
+        padding-bottom: 40px;
+    }
+
+    .section-image {
+        & p {
+            width: 100%;
+        }
     }
 }
 
